@@ -83,6 +83,12 @@ body {
   padding: 12px;
   border-radius: 5px;
 }
+
+.task-item i:hover {
+  cursor: pointer;
+  color: red;
+  transition: all 1s;
+}
 /*utilities*/
 
 .error {
@@ -90,4 +96,8 @@ body {
 }
 .error::placeholder {
   color: red;
+}
+.completed {
+  text-decoration: line-through;
+  background-color: rgb(10, 248, 42);
 }
